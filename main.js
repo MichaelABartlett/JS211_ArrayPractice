@@ -130,7 +130,8 @@ console.log('');
 const numbers = [23, 45, 0 , 2, 8, 44, 100, 1, 3, 91, 34];
 
 const addTwo = (num,index, arr) => {
-    num = num +2; 
+    arr[index]=num + 2;
+    // num = num +2; 
     console.log('Each of these numbers is the numbers in the numbers array plus 2: ', num);
 }
 numbers.forEach(addTwo);
